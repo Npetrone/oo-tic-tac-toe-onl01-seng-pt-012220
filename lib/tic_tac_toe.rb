@@ -29,7 +29,7 @@ class TicTacToe
   end
   
   def move(index, token = "X")
-    @board(index, "X || 0")
+    @board[index, "X || 0"]
   end
   
   
