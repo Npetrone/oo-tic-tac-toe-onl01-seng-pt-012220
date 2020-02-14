@@ -50,6 +50,7 @@ end
       if el == "X" || el == "O"
     counter += 1
   end
+end
   counter
   end
   
