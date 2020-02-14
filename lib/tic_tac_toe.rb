@@ -100,6 +100,10 @@ end
     @board[player[0]]
   end
   end
+  
+  def play
+    
+  end
     
     
 end
