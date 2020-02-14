@@ -46,7 +46,8 @@ end
   
   def turn_count
     counter = 0
-    @board.each != "nil"
+    @board.each do |el|
+      if el <= 
     counter += 1
   end
   
