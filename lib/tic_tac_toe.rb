@@ -29,7 +29,7 @@ class TicTacToe
   end
   
   def move(index, token = X)
-    
+    move.i-1,O
   end
   
   
