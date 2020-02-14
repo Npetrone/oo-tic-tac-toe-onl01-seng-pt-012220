@@ -61,7 +61,9 @@ end
   def turn(input)
     puts "Choose a number between 1-9"
     input = input_to_index(gets.chomp)
-    
+    if valid_move?(index)
+      move(index, current_player)
+    end
   end
     
     
