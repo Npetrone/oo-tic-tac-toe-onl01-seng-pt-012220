@@ -82,6 +82,10 @@ end
     end
     winner
   end
+  
+  def full?
+    
+  end
     
     
 end
