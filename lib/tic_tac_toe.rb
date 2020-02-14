@@ -28,8 +28,8 @@ class TicTacToe
     input.to_i - 1
   end
   
-  def move(index, token = X)
-    move.i-1,O
+  def move(index, token = "X")
+    @board(index, "X || 0")
   end
   
   
