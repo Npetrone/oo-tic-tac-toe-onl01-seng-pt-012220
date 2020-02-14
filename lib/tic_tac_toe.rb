@@ -96,7 +96,9 @@ end
   end
   
   def winner
-    @board[won?[0]]
+    if player = won?
+    @board[player[0]]
+  end
   end
     
     
