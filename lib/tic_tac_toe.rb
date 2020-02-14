@@ -26,11 +26,4 @@ class TicTacToe
   
   
     
-  
-  
-  
-  
-  
 end
-
-TicTacToe.new.display_board
