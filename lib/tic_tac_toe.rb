@@ -58,7 +58,7 @@ end
     turn_count % 2 == 0 ? "X" : "O"
   end
   
-  def turn(input)
+  def turn
     puts "Choose a number between 1-9"
     input = input_to_index(gets.chomp)
     if valid_move?(index)
